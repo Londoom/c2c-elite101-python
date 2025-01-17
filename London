@@ -1,0 +1,26 @@
+print("Hello! What's your name?")
+
+name = input("Enter your name:" )
+print("Hello, "+name+"!")
+
+print("Please enter your age!")
+age = input("Enter your age:")
+
+chatbotlist = ["cooking", "drawing", "music", "yodeling", "yard work", "exit"]
+print(chatbotlist)
+
+choice = input("Here's a list of things I can do! How can I help you?")
+if choice == "cooking":
+    print('cook some food!')
+elif choice == "drawing":
+    print("draw something!")
+elif choice == "music":
+    print("listen to some!")
+elif choice == "yodeling":
+    print("yodeling is good for your vocal chords!")
+elif choice == "yard work":
+    print("Do some!")
+elif choice == "exit":
+    print("thank you for using this program!")
+else:
+    print("I'm sorry, I dont understand..")
